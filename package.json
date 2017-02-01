@@ -1,0 +1,23 @@
+{
+  "name": "interblag",
+  "version": "0.0.1",
+  "description": "Markdown => static websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Konves",
+  "license": "MIT",
+  "dependencies": {
+    "finalhandler": "^0.5.0",
+    "fs-sync": "^1.0.3",
+    "highlight.js": "^9.7.0",
+    "html-minifier": "^3.1.0",
+    "marked": "^0.3.6",
+    "recursive-readdir": "^2.1.0",
+    "serve-static": "^1.11.1"
+  },
+  "bin": {
+    "interblag": "./index.js"
+  }
+}
